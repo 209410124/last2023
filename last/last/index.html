@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./style_24.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row v-center">
+        <div class="header-item item-left">
+          <div class="logo">
+            <a href="./index.html">HOME</a>
+          </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+          <div class="menu-overlay"></div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fa fa-angle-left"></i></div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="menu-main">
+              <li class="menu-item-has-children">
+                <a href="#">api project <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a onclick="ClassDemo('api.md')">api_24.md</a></li>
+                    <li><a onclick="ClassDemo('4a.md')">p1</a></li>
+                    <li><a onclick="ClassDemo('4b.md')">p2</a></li>
+                    <li><a onclick="ClassDemo('4c.md')">p3</a></li>
+                    <li><a onclick="ClassDemo('talk.md')">心得甘苦談</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- menu end here -->
+        <div class="header-item item-right">
+          <a href="https://github.com/209410124/demo24"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-git-alt"></i></a>
+          <a href="#"><i class="fas fa-cog"></i></a>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <h1 class="h1">狗狗品種篩選 209410124</h1>
+  <div class="flex">
+    <select id="breedSelect">
+      <option value="">選擇狗狗品種</option>
+    </select>
+    <button class="random-btn" id="fetchButton">
+      <i class="fa fa-random"></i>
+    </button>
+    
+   
+<div id="dogContainer"></div>
+<div class="banner-section"></div>
+<button class="random-btn" id="random">
+<i class="fa fa-random"></i>
+    </button>
+</div>
+<script src="./script_24.js"></script>
+  <script src="../classdemo_24.js"></script>
+</body>
+</html>
