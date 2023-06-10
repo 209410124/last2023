@@ -9,11 +9,11 @@
 [https://github.com/209410124/last2023]
 
 ### vercel url
-[https://last2023-k4pw.vercel.app/]
+[https://vercel.com/209410124/last2023-k4pw]
 
 
 ### Vercel api project URL
-[https://api.vercel.com/v6/deployments?teamId]
+[https://last2023-k4pw.vercel.app/]
 
 ### 參考網站
 ### 此網站有許多免費api可以參考[https://apilist.fun/collection/free-apis]
