@@ -9,4 +9,4 @@
 [https://github.com/209410124/last2023]
 
 ### vercel url
-[]
+[https://last2023-k4pw.vercel.app/]
