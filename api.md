@@ -10,3 +10,21 @@
 
 ### vercel url
 [https://last2023-k4pw.vercel.app/]
+
+
+### Vercel api project URL
+[https://api.vercel.com/v6/deployments?teamId]
+
+### 參考網站
+### 此網站有許多免費api可以參考[https://apilist.fun/collection/free-apis]
+### api來源[https://dog.ceo/dog-api/]
+
+
+### 說明該項自己的實作過程
+在實作的過程中遇到了許多問題 但大多都上網查詢都可以找到。
+
+### 心得甘苦談
+
+這是我第二次修這門課了 即是上課認真動手做 平時也有在練習 但我可能在code方面沒什麼天份 看別人打得很輕鬆 但到我這我總是覺得很困難
+考試的時候也很多寫不出來，不參考東西的話很難做出一個有辦法跑的程式，即使我知道這個迴圈怎麼寫，我也很難想到要如何將程式碼放進去讓他跑
+，這大概就是我所遇到的問題。
